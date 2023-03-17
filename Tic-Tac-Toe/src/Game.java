@@ -46,7 +46,7 @@ public class Game {
 
      public void stopGame(){
          this.setScore();
-         System.out.println("You win " +gamningPlayer.getUsername());
-         System.out.println(this.gamningPlayer.getVictoryPhrase().toUpperCase());
+         System.out.println("The Winning player: " +gamningPlayer.getUsername().toUpperCase());
+         System.out.println("The Victory Phrase: "+this.gamningPlayer.getVictoryPhrase().toUpperCase());
      }
 }
